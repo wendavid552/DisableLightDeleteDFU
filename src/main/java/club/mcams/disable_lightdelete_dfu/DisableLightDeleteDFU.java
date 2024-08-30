@@ -18,7 +18,7 @@
  * along with TemplateMod.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package me.fallenbreath.template_mod;
+package club.mcams.disable_lightdelete_dfu;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
@@ -32,7 +32,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 //#endif
 
-public class TemplateMod implements ModInitializer
+public class DisableLightDeleteDFU implements ModInitializer
 {
 	public static final Logger LOGGER =
 			//#if MC >= 11802
@@ -41,9 +41,9 @@ public class TemplateMod implements ModInitializer
 			LogManager.getLogger();
 			//#endif
 
-	public static final String MOD_ID = "template_mod";
-	public static String MOD_VERSION = "unknown";
-	public static String MOD_NAME = "unknown";
+	public static final String MOD_ID = "disable_lightdelete_dfu";
+	public static String MOD_VERSION = "0.0.1";
+	public static String MOD_NAME = "DisableLightDeleteDFU";
 
 	@Override
 	public void onInitialize()

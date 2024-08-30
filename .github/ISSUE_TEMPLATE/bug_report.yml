@@ -58,7 +58,7 @@ body:
     id: mod-version
     attributes:
       label: TemplateMod version
-      description: The TemplateMod version(s) where this bug occurs in.
+      description: The DisableLightDelete version(s) where this bug occurs in.
       placeholder: 1.2.3
     validations:
       required: true

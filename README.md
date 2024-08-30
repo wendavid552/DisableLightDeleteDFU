@@ -1,21 +1,19 @@
-## fabric-mod-template
+## DisableLightDeleteDFU
 
 [![License](https://img.shields.io/github/license/Fallen-Breath/fabric-mod-template.svg)](http://www.gnu.org/licenses/lgpl-3.0.html)
 [![workflow](https://github.com/Fallen-Breath/fabric-mod-template/actions/workflows/gradle.yml/badge.svg)](https://github.com/Fallen-Breath/fabric-mod-template/actions/workflows/gradle.yml)
 
-fallen's fabric mod template
+This mod disables the light delete DFU introduced in Minecraft >=1.20.3.
 
-If you find it helpful, a credit to this template in your project will be greatly appreciated
+Credits to https://github.com/ForwarD-NerN/NotSoShadowExtras, for lazy people like me who don't want to set up the configs.
 
-## To use
+本模组关闭了1.20.3中引入的升级旧版本存档时光照数据会被强制重置的特性，主要用于带EOL的存档升级。
 
-1. Clone / Use this template to get a new project
-2. Search `[FEATURE]` in the project, delete or uncomment those addons
-3. Setup the mod
-    - Edit java package name
-    - Edit [gradle.properties](gradle.properties) for mod id / name etc.
-    - Edit mod name in [bug_report.yml](.github/ISSUE_TEMPLATE/bug_report.yml)
-    - Edit [common.gradle](common.gradle) for mod file location constants
-    - Change the Minecraft versions in [settings.json](settings.json), [build.gradle](build.gradle), and files in the [versions](versions) folder
-    - Search `template` in the project to see if there are any missing unedited stuffs
-4. Edit [README](README.md) for the new mod
+从 https://github.com/ForwarD-NerN/NotSoShadowExtras 搬运而来，主要是懒得调设置
+## Instruction
+Use it when upgrading your saves **with EOL** from before 1.20.2, then remove this mod from your mod sets.
+
+You only need this mod once, and minecraft will never reset the light data when upgrading.
+
+
+升级的时候用一次，然后就请删掉这个模组，你的存档升级一次了之后就不会再因为升级重置光照了，包括重启服务器之类的也不会重置（当然直接更新还是会的）。

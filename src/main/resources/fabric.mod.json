@@ -4,25 +4,24 @@
   "version": "${version}",
 
   "name": "${name}",
-  "description": "Template for my fabric mods",
+  "description": "Disable light delete DFU introduced in 1.20.2",
   "authors": [
-    "Fallen_Breath"
+    "WenDavid"
   ],
   "contact": {
-    "homepage": "https://modrinth.com",
-    "sources": "https://github.com/Fallen-Breath/fabric-mod-template"
+    "sources": "https://github.com/wendavid552/DisableLightDeleteDFU"
   },
 
-  "icon": "assets/template_mod/icon.png",
+  "icon": "assets/disable_lightdelete_dfu/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.fallenbreath.template_mod.TemplateMod"
+      "club.mcams.disable_lightdelete_dfu.DisableLightDeleteDFU"
     ]
   },
   "mixins": [
-    "template_mod.mixins.json"
+    "disable_lightdelete_dfu.mixins.json"
   ],
 
   "depends": {
